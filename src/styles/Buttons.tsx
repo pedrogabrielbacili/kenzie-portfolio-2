@@ -1,11 +1,12 @@
 import { styled } from "@/styles/stitches.config";
 import { colors } from "@/styles/Global";
+import { Reorder } from "framer-motion";
 
 export const Button = styled("button", {
   height: "3rem",
   appearance: "none",
   background: "$whiteFixed",
-  color: "$grey1",
+  color: "$whitefixed",
   fontWeight: "600",
   padding: "0 2rem",
   border: "2px solid $whiteFixed",
@@ -123,14 +124,14 @@ export const Button = styled("button", {
             color: "$socialInstagram",
           },
         },
-        ["&.facebook"]: {
-          backgroundColor: "$socialFacebook",
-          borderColor: "$socialFacebook",
+        ["&.youtube"]: {
+          backgroundColor: "$socialYoutube",
+          borderColor: "$socialYoutube",
           color: "$whiteFixed",
           "&:hover": {
             backgroundColor: "transparent",
-            borderColor: "$socialFacebook",
-            color: "$socialFacebook",
+            borderColor: "$socialYoutube",
+            color: "$socialYoutube",
           },
         },
         ["&.linkedin"]: {

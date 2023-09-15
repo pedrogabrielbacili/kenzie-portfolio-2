@@ -3,7 +3,7 @@ import { Text } from "@/styles/Text";
 import { Footer as FooterWrapper } from "./style";
 import { UserImage } from "@/pages/home/style";
 import { userData } from "@/utils/userData";
-import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
 import { Button } from "@/styles/Buttons";
 // import { HandEffect } from "../HandEffect";
 
@@ -45,13 +45,13 @@ export const Footer = (): JSX.Element => {
             <FaInstagram />
           </Button>
           <Button
-            className="facebook"
+            className="youtube"
             type="circle"
             as="a"
             target="_blank"
-            href={`https://fb.com/${userData.facebookUser}`}
+            href={`https://www.youtube.com/${userData.YouTubeUser}`}
           >
-            <FaFacebookF />
+            <FaYoutube />
           </Button>
           <Button
             className="linkedin"
